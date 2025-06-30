@@ -24,6 +24,7 @@ const dbName = 'passop';
 // Use connect method to connect to the server
 client.connect();
 
+
 //Get all password
 app.get('/', async(req, res) => {
     const db = client.db(dbName);
